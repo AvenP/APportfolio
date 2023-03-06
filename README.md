@@ -42,4 +42,6 @@ Added flex to the section, space-evenly and align items:center
 Added mailto to email me and added target blank to GitHub and LinkedIn
 Made link, hover, and visited color changes to Email Me, GitHub, and Linkedin
 
+Added media queries for 768px and 375px
+
 License Mit

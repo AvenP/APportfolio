@@ -245,8 +245,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  header {
+  header, ul {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .block {
@@ -261,5 +262,44 @@ p {
  .workblock {
   height: 100vh;
  }
+
+ .info {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+ }
+
 }
 
+@media screen and (max-width: 375px) {
+  header, ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+  }
+
+  .block {
+    max-width: 100%;
+  }
+ 
+  .smallbox, .smallbox2, .smallbox3, .smallbox4 {
+  width: 96%;
+    height: 20%;
+ }
+ 
+p {
+  padding: 5%;
+
+}
+
+ .workblock {
+  height: 100vh;
+ }
+
+ .info {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+ }
+
+}
